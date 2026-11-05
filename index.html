@@ -8,14 +8,19 @@
     <body>
 
         <main class="content-container">
-            <form>
-                <input type="color" id="test">
+            <form id="colorForm">
+                <input type="color" id="eyeDrop" value="#000000">
                 <select id="colorSelector" name="colorSelector">
                     <option value="monochrome">Monochrome</option>
-                    <option value="#2">eg</option>
-                    <option value="#3">eg</option>
+                    <option value="monochrome-dark">Monochrome Dark</option>
+                    <option value="monochrome-light">Monochrome Light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic Complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
                 </select>
-                <button id="ColorSchemeBtn">Get color scheme</button>
+                <button id="colorSchemeBtn" type="submit">Get color scheme</button>
             </form>
             <div class="color-palette-container"></div>
         </main>
