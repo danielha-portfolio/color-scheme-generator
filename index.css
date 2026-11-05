@@ -11,6 +11,7 @@ html, body {
     max-width: 800px;
     margin: 30px auto 0;
     width: 100%;
+    border-radius: 10px;
     background-color: #efefef;
 }
 
@@ -35,15 +36,25 @@ input{
     padding: 0;
     width: 90px;
     height: 60px;
+
 }
 button{
     width: auto;
     display: inline-block;
     border: 1px solid #D1D5DB;
     border-radius: 5px;
+    width: 100%;
+    max-width: 130px;
     background-color: #fff;
-}
+    padding: 0 5px;
+    transition: all ease-in-out 0.3s;
 
+}
+button:hover{
+    background-color: #f43a3a;
+    border: 1px solid #f43a3a;
+    color: #fff;
+}
 .color-cont{
     display: inline-block;
     width: 20%;
