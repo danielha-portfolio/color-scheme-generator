@@ -45,7 +45,9 @@ button{
     border-radius: 5px;
     width: 100%;
     max-width: 130px;
+    font-weight: 600;
     background-color: #fff;
+    text-transform: uppercase;
     padding: 0 5px;
     transition: all ease-in-out 0.3s;
 
@@ -58,11 +60,17 @@ button:hover{
 .color-cont{
     display: inline-block;
     width: 20%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.color-cont:hover .color-block{
+    transform: scale(1.05);
 }
 .color-block{
     height: 60vh;
     display: flex;
     flex-direction: column;
+    transition: all 0.3s ease-in-out;
 }
 .color-cont p{
     text-align: center;

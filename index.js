@@ -43,19 +43,3 @@ colorPaletteContainer.addEventListener("click", async(e) => {
         console.error('Failed to copy: ', err);
     }
 });
-
-
-
-
-
-
-
-        // try {
-        //     // Copy the input's value to the clipboard
-        //     await navigator.clipboard.writeText();
-            
-        //     // Optional: Provide user feedback
-        //     alert('Copied to clipboard!');
-        // } catch (err) {
-        //     console.error('Failed to copy: ', err);
-        // }
